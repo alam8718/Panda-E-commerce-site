@@ -1,7 +1,9 @@
 .container{
     margin-bottom: 100px;
 }
+/* carousel part  */
 .carousel-background{
+    border-radius: 10px;
     background-color: #fceae8;
 }
 .carousel-item{
@@ -13,4 +15,52 @@
 .btn{
     background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
     color: white;
+}
+
+/* categories part */
+
+
+.col1,.col2,.col3{
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.col1{
+    
+    background-color: orangered;
+}
+.col2{
+     
+    background-color: #FF136F;
+}
+.col3{
+    
+    background-color: lightblue;
+}
+#shoes .btn{
+    background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
+    color: white;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+#backpack .card-footer{
+    color:white ;
+    border: none;
+    background-color: white;
+
+}
+#contact{
+    height: 300px;
+    
+}
+#contact p{
+    color: gray;
+}
+#contact .btn{
+    color: white;
+}
+footer{
+    text-align: center;
 }
