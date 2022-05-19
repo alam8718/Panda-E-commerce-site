@@ -1,0 +1,16 @@
+.container{
+    margin-bottom: 100px;
+}
+.carousel-background{
+    background-color: #fceae8;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.btn{
+    background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
+    color: white;
+}
